@@ -87,11 +87,15 @@ st.markdown("""
     border-radius: 10px !important; padding: 14px 16px !important;
 }
 [data-testid="stMetricLabel"] {
-    color: rgba(180,210,255,0.55) !important; font-size: 0.72rem !important;
-    text-transform: uppercase !important; letter-spacing: 0.06em !important;
+    color: #000000 !important;
+    font-size: 0.72rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.06em !important;
 }
 [data-testid="stMetricValue"] {
-    color: #e8eef7 !important; font-size: 1.35rem !important; font-weight: 600 !important;
+    color: #000000 !important;
+    font-size: 1.35rem !important;
+    font-weight: 600 !important;
 }
 
 h1 { color: #ffffff !important; font-weight: 600 !important; font-size: 1.6rem !important; }
