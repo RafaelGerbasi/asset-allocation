@@ -174,10 +174,10 @@ with st.sidebar:
     usar_bl = st.toggle('Usar Black-Litterman')
     rodar   = st.button('🚀 Otimizar Portfólio', type='primary', use_container_width=True)
     if rodar:
-    ativos = [a.strip().upper() for a in ativos_input.split(';')]
-    end    = pd.Timestamp.today().strftime('%Y-%m-%d')
-    start  = start.strftime('%Y-%m-%d')
-    FREQ   = 252
+        ativos = [a.strip().upper() for a in ativos_input.split(';')]
+        end    = pd.Timestamp.today().strftime('%Y-%m-%d')
+        start  = start.strftime('%Y-%m-%d')
+        FREQ   = 252
 
     with st.spinner('📡 Baixando dados...'):
         precos = pd.DataFrame()
