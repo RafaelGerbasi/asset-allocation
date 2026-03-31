@@ -29,11 +29,11 @@ st.markdown("""
 
 .stApp { background-color: #080c14; color: #e8eef7; }
 
-[data-testid="stSidebar"] {
-    background: rgba(15, 35, 75, 0.55) !important;
-    backdrop-filter: blur(20px) !important;
-    -webkit-backdrop-filter: blur(20px) !important;
-    border-right: 1px solid rgba(100, 160, 255, 0.15) !important;
+[data-testid="stSidebar"] input {
+    background: rgba(255,255,255,0.9) !important;
+    color: #000000 !important;
+    border: 1px solid rgba(100,160,255,0.25) !important;
+    border-radius: 6px !important;
 }
 [data-testid="stSidebar"] p,
 [data-testid="stSidebar"] span,
