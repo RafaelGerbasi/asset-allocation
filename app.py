@@ -30,10 +30,11 @@ st.markdown("""
 .stApp { background-color: #080c14; color: #e8eef7; }
 
 [data-testid="stSidebar"] input {
-    background: rgba(255,255,255,0.9) !important;
-    color: #000000 !important;
+    background: rgba(255,255,255,0.08) !important;
+    color: #ffffff !important;
     border: 1px solid rgba(100,160,255,0.25) !important;
     border-radius: 6px !important;
+}
 }
 [data-testid="stSidebar"] p,
 [data-testid="stSidebar"] span,
