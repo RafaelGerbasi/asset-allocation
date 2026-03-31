@@ -1,0 +1,10 @@
+yfinance
+pyportfolioopt
+seaborn
+scipy
+riskfolio-lib
+streamlit
+requests
+matplotlib
+pandas
+numpy
